@@ -1,0 +1,142 @@
+.body-page--function{
+    position: relative;
+    display: block;
+    margin-top: 100px;
+    margin-left: 32px;
+    height: fit-content;
+}
+.body-page--function-title{
+    position: relative;
+    font-size: 32px;
+}
+
+.body-page--function-form{
+    position: relative;
+    margin-top: 32px;
+    width: 1620px;
+    background-color: white;
+    max-height: fit-content;
+    border-radius: 40px;
+    box-shadow: 10px 10px 20px 20px rgba(0,0,0,0.1);
+}
+
+
+.body-page--function-form--title{
+    position: relative;
+    padding-top: 24px;
+}
+
+
+.title{
+    font-size: 24px;
+    display: block;
+    padding-left: 24px;
+    color:#808080;
+}
+
+.body-page--function-form--title-seperate::after{
+    content: "";
+    display: block;
+    position: relative;
+    border-bottom: 1px solid black;
+    width: 100%;
+    top: 28px;
+    opacity: .15;
+    padding-left: 0px;
+}
+
+.body-page--function-form--content{
+    position: relative;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.body-page--function-form--content-list{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.body-page--function-form--content-list{
+    position: relative;
+    display:block;
+    list-style: none;
+}
+
+.body-page--function-form--content-col1_title{
+    margin-bottom: 12px;
+}
+
+.body-page--function-form--content-col1_input{
+    margin-bottom: 24px;
+    opacity: 0.8;
+}
+
+.body-page--function-form--content-col1_dropdown{
+    margin-bottom: 70px;
+}
+
+.body-page--function-form--content-col1_select{
+    position: absolute;
+    font-size: 16px;
+    width: 450px;
+    z-index: 1;
+}
+
+.body-page--function-form--content-col2{
+    padding-right: 40px;
+}
+
+.body-page--function-form--content-col2_title{
+    margin-bottom: 12px;
+}
+
+
+.body-page--function-form--content-col2_input{
+    margin-bottom: 24px;
+    opacity: 0.8;
+}
+
+.body-page--function-form--content-input{
+    width: 700px;
+    height: 28px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 12px;
+    font-size: 16px;
+}
+
+.button-form{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+
+}
+
+.function-submit{
+    cursor: pointer;
+    margin-right: 4px;
+    width: 120px;
+    height: 32px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:#3399CC;
+    color: white;
+    margin-bottom: 32px;
+}
+
+.function-reset{
+    cursor: pointer;
+    width: 80px;
+    height: 32px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 32px;
+}
+
+.error{
+    color: red;
+}
+
+

@@ -1,0 +1,159 @@
+/*Body Page */
+.body-page--introduce{
+    position: relative;
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 32px;
+    margin-left: 32px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid rgba(3, 3, 3, 0.205);
+    box-shadow: 10px 10px 20px 20px rgba(0,0,0,0.1);
+    padding-top: 32px;
+    border-radius: 40px;
+}
+.body-page--introduce_title{
+    position: relative;
+    font-size: 24px;
+    padding-left: 24px;
+}
+
+.body-page--introduce_introduce{
+    position: relative;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    height: auto;
+    background-color: white;
+}
+
+
+.body-page--introduce_introduce--title{
+    position: relative;
+    padding-top: 24px;
+}
+
+.body-page--introduce-seperate::after{
+    content: "";
+    display: block;
+    position: relative;
+    border-bottom: 1px solid black;
+    width: 100%;
+    top: 28px;
+    opacity: .15;
+    padding-left: 0px;
+}
+
+.body-page--introduce-seperate::before{
+    content: "";
+    display: block;
+    position: relative;
+    border-top: 1px solid black;
+    width: 100%;
+    bottom: 52px;
+    opacity: .15;
+    padding-left: 0px;
+}
+
+.body-page--introduce_title-seperate::after{
+    content: "";
+    display: block;
+    position: relative;
+    border-bottom: 1px solid black;
+    width: 100%;
+    padding-left: 0px;
+}
+
+.body-page-introduce_form{
+    margin-top: 56px;
+    padding-left: 24px;
+}
+
+
+.content{
+    display: block;
+    margin-top: 32px;
+    font-size: 20px;
+}
+
+
+.function{
+    margin-top: 32px;
+    font-size: 20px;
+    padding-left: 0px;
+}
+
+.li{
+    margin-top: 12px;
+    margin-left: 32px;
+    line-height: 32px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.body-page--introduce_summary{
+    position: relative;
+    display: inline-flex;
+    margin-top: 32px;
+    margin-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 12px;
+    width: 100%;
+}
+
+
+.form1 {
+    width: 20%;
+    height: 150px;
+    margin-right: 72px;
+    text-align: center;
+    background-color: #ee6055;
+
+}
+
+.form2 {
+   width: 20%;
+    height: 150px;
+    margin-right: 72px;
+    text-align: center;
+    background-color: #FF9900;
+}
+
+.form3 {
+   width: 20%;
+    height: 150px;
+    margin-right: 72px;
+    text-align: center;
+    background-color: #168aad;
+}
+
+.form4 {
+    width: 20%;
+    height: 150px;
+    margin-right: 72px;
+    text-align: center;
+    background-color: green;
+}
+
+.form_td{
+    padding: 15px 10px;
+    color:white;
+}
+
+.form_th{
+    
+    width: 50%;
+}
+
+.form{
+    margin-bottom: 32px;
+}
+
+.icon{
+    font-size: 50px;
+    color: black;
+}

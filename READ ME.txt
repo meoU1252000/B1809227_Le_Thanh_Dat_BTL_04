@@ -1,0 +1,16 @@
+Trang Khách Hàng -> Assests
+Trang quản trị -> Admin
+Trang hình ảnh -> img
+
+Tài khoản đăng nhập trang admin: 
+Tên đăng nhập : b1809227
+Mật khẩu : admin
+
+Tài khoản đăng nhập trang khách hàng:
+Tài khoản 1:
+Tên đăng nhập: sonsonson321
+mật khẩu: !tDafEYM1
+
+Tài khoản 2:
+Tên đăng nhập: b1809227
+mật khẩu: !tDafEYM1

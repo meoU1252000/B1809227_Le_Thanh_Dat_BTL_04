@@ -1,0 +1,159 @@
+.info-page--function{
+    position: relative;
+    display: block;
+    margin-top: 100px;
+    margin-left: 32px;
+}
+.info-page--function-title{
+    position: relative;
+    font-size: 32px;
+}
+
+.info-page--function-form{
+    position: relative;
+    margin-top: 32px;
+    width: 1620px;
+    max-height: 650px;
+    background-color: white;
+    border-radius: 40px;
+}
+
+
+.info-page--function-form--title{
+    position: relative;
+    padding-top: 24px;
+}
+
+
+.title{
+    font-size: 24px;
+    display: block;
+    padding-left: 24px;
+    color:#808080;
+}
+
+.info-page--function-form--title-seperate::after{
+    content: "";
+    display: block;
+    position: relative;
+    border-bottom: 1px solid black;
+    width: 100%;
+    top: 28px;
+    opacity: .15;
+    padding-left: 0px;
+}
+
+.info-page--function-form--content{
+    position: relative;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-page--function-form--content-list{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.info-page--function-form--content-list{
+    position: relative;
+    display:block;
+    list-style: none;
+}
+
+.info-page--function-form--content-col1_title{
+    margin-bottom: 12px;
+}
+
+.info-page--function-form--content-col1_input{
+    margin-bottom: 24px;
+    opacity: 0.8;
+}
+
+
+.info-page--function-form--content-col2_title{
+    margin-bottom: 12px;
+}
+
+
+.info-page--function-form--content-col2_input{
+    margin-bottom: 24px;
+    opacity: 0.8;
+}
+
+.info-page--function-form--content-col2_img{
+    margin-bottom: 32px;
+}
+
+.info-page--function-form--content-col3_img{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 4px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.upload_button{
+    width: 200px;
+    height: 32px;
+    background-color: #3399CC;
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 12px;
+    cursor: pointer;
+    display: block;
+    transform: translateX(25%);
+}
+
+.info-page--function-form--content-col3_form{
+    margin-top: 7px;
+    padding-right: 72px;
+    list-style-type: none;
+    position: relative;
+    display:block;
+    max-height: 400px;
+}
+
+.info-page--function-form--content-input{
+    width: 500px;
+    height: 28px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 12px;
+    font-size: 16px;
+}
+
+.button-form{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 48px;
+
+}
+
+.function-submit{
+    cursor: pointer;
+    margin-right: 4px;
+    width: 120px;
+    height: 32px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:#3399CC;
+    color: white;
+    margin-bottom: 32px;
+}
+
+.function-reset{
+    cursor: pointer;
+    width: 80px;
+    height: 32px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 32px;
+}
+
+.error{
+    color: red;
+}
+
+

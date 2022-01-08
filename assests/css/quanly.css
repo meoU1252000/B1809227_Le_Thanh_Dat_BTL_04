@@ -1,0 +1,240 @@
+.body-page--manage{
+    position: relative;
+    display: block;
+    margin-top: 100px;
+    margin-left: 32px;
+    margin-bottom: 32px;
+    width: 98%;
+    background-color: white;
+    border: 1px solid rgba(3, 3, 3, 0.205);
+    box-shadow: 10px 10px 20px 20px rgba(0,0,0,0.1);
+    padding: 30px 20px 20px 20px;
+    border-radius: 40px;
+}
+
+.body-page--manage_title{
+    position: relative;
+    font-size: 26px;
+}
+
+.body-page--manage_form{
+    margin-top: 24px;
+    height: auto;
+}
+.body-page--manage_form--table{
+    background-color: white;
+    line-height: 30px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.body-page--manage_form--table-display{
+    background-color: #3399CC;
+    color: white;
+}
+
+.body-page--manage_form--table-display{
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.body-page--manage_form--table-col_id{
+    position: relative;
+    max-width: 50px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+
+.body-page--manage_form--table-col_address{
+    position: relative;
+    max-width: 250px;
+    padding-left: 6px;
+    padding-right: 6px;
+    word-wrap: break-word;
+}
+
+.body-page--manage_form--table-col_name{
+    position: relative;
+    max-width: 145px;
+    word-wrap: break-word;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.body-page--manage_form--table-col_note{
+    position: relative;
+    max-width: 200px;
+    word-wrap: break-word;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.body-page--manage_form--table-col_phone{
+    position: relative;
+    max-width: 80px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.body-page--manage_form--table-col_fax{
+    position: relative;
+    max-width: 100px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.body-page--manage_form--table-col_position{
+    position: relative;
+    max-width: 250px;
+    padding-left: 6px;
+    padding-right: 6px;
+    word-wrap: break-word;
+}
+
+.body-page--manage_form--table-col_email{
+    position: relative;
+    max-width: 180px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.body-page--manage_form--table-col_img{
+    padding: 0 0;
+    position: relative;
+    max-width: 300px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.body-page--manage_form--table-col_action{
+    position: relative;
+    max-width: 100px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.body-page--manage_form--table-col_specifications{
+    position: relative;
+    max-width: 70px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.body-page--manage_form--table-col_prices{
+    position: relative;
+    padding-left: 6px;
+    padding-right: 6px;
+    max-width: 60px;
+}
+
+.body-page--manage_form--table-col_quantity{
+    position: relative;
+    max-width: 50px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.body-page--manage_form--table-col_orderdate{
+    position: relative;
+    max-width: 60px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.body-page--manage_form--table-col_deliverydate{
+    position: relative;
+    max-width: 60px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.body-page--manage_form--table-col_status{
+    position: relative;
+    max-width: 80px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.body-page--manage_form--table-col_saleoff{
+    position: relative;
+    max-width: 150px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.body-page--manage_form--table-col_concentration{
+    position: relative;
+    max-width: 50px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.body-page--manage_form--table-tr{
+    font-size: 18px;
+}
+
+
+
+.body-page--manage_form--table-col_action-form{
+    font-size: 16px;
+   text-align: center;
+}
+
+.edit-icon_action{
+    color:black;
+    margin-left: 20px;
+}
+
+.eyes-icon{
+    color:black;
+    margin-right: 8px;
+}
+
+.action_edit{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    margin-right: 12px;
+}
+
+.action_watch{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    margin-right: 12px;
+}
+
+.action_delete{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    margin-right: 12px;
+}
+
+.admin-product-item__img{
+    width: 200px;
+    height: 150px;
+    object-fit:fill;
+}
+
+.body-page--header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.body-page--header_searching{
+    position: relative;
+}
+
+.body-page--header_searching input{
+    width: 240px;
+    height: 25px;
+    padding-left: 8px;
+}
+
+.body-page--header_searching i{
+    position: absolute;
+    right: 4%;
+    top: 20%
+}
