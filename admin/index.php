@@ -108,12 +108,7 @@ if (!isset($_SESSION['admin'])) {
                     <span class="body-page--aside_admin--name">Trang Chủ Quản Trị</span>
                 </a>
             </div>
-            <?php  
-              while($row_role = mysqli_fetch_array($query_role)){
-                    $id_role = $row_role['id_role'];
-                    if($id_role == 1){
-                      
-            ?>
+          
             <div class="body-page--aside_members">
                 <div class="body--aside_wrap">
                     <a href="index.php?page_layout=nhanvien" class="body-page--aside_admin--link">
@@ -133,7 +128,7 @@ if (!isset($_SESSION['admin'])) {
                     </div>
                 </div>
             </div>
-            <?php  }else if($id_role == 3){?>
+         
             <div class="body-page--aside_list">
                 <div class="body--aside_wrap">
                     <a href="index.php?page_layout=danhmuc" class="body-page--aside_admin--link">
@@ -153,7 +148,7 @@ if (!isset($_SESSION['admin'])) {
                 </div>
 
             </div>
-            <?php }else if($row_role['id_role'] == 2){?>
+          
 
             <div class="body-page--aside_item">
                 <div class="body--aside_wrap">
@@ -185,7 +180,7 @@ if (!isset($_SESSION['admin'])) {
                     </div>
                 </div>
             </div>
-            <?php }else if($row_role['id_role'] == 4){?>
+            <
                 
             <div class="body-page--aside_customers">
                 <div class="body--aside_wrap">
@@ -195,7 +190,7 @@ if (!isset($_SESSION['admin'])) {
                     </a>
                     
                 </div>
-            <?php }else if($row_role['id_role'] == 5){ ?>
+           
                 <div class="body-page--aside_list">
                     <div class="body--aside_wrap">
                         <a href="index.php?page_layout=donhang" class="body-page--aside_admin--link">
@@ -206,7 +201,7 @@ if (!isset($_SESSION['admin'])) {
                     </div>
 
                 </div>
-            <?php }else if($row_role['id_role'] == 6) {?>
+          
                 <div class="body-page--aside_list">
                     <div class="body--aside_wrap">
                         <a href="index.php?page_layout=khuyenmai" class="body-page--aside_admin--link">
@@ -216,7 +211,7 @@ if (!isset($_SESSION['admin'])) {
                     </div>
                 </div>
             </div>
-            <?php }} ?>
+          
             <div class="body-page--aside_logout body-page--aside_logout-seperate">
                 <a href="dangxuat.php" class="body-page--aside_admin--link">
                     <i class="fas fa-power-off angle-down"></i>
