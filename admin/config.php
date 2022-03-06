@@ -2,7 +2,7 @@
 $dbhostname="localhost";
 $dbusername = "root";
 $dbpassword = "";
-$dbName = "quanlydathang";
+$dbName = "quanlydathang1";
 $conn = mysqli_connect($dbhostname,$dbusername,$dbpassword,$dbName);
 ini_set('memory_limit', '512M');
 if($conn){
