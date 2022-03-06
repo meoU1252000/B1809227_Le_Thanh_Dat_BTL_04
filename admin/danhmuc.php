@@ -8,7 +8,7 @@
 if (!isset($_SESSION['admin'])) {
     header('location: ./dangnhap.php');
 }else{
-        if($_SESSION['role']['3']){
+        
                 if(isset($_GET['page'])){
                     $page=$_GET['page'];
                 } else{
@@ -32,18 +32,7 @@ if (!isset($_SESSION['admin'])) {
                         $listPage.='<a  href="index.php?page_layout=danhmuc&page='.$i.'">'.$i.'</a>';
                     }
                 }
-        }else{
-            echo '<script language="javascript">';
-            echo 'alert("Bạn không có quyền truy cập vào trang này")';
-            echo '</script>';
-            $url = "index.php";
-            if(headers_sent()){
-                die('<script type ="text/javascript">window.location.href="'.$url.'" </script>');
-            }else{
-                header ("location: $url");
-                die();
-            }
-        }
+      
    
     mysqli_close($conn);
 
