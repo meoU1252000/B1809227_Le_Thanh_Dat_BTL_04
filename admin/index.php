@@ -3,16 +3,16 @@ session_start();
 include_once './config.php';
 //tiến hành kiểm tra là người dùng đã đăng nhập hay chưa
 //nếu chưa, chuyển hướng người dùng ra lại trang đăng nhập
-if (!isset($_SESSION['id_nv'])) {
+if (!isset($_SESSION['admin'])) {
     header('location: ./dangnhap.php');
 } else {
     $kt = mysqli_query($conn, "SELECT * from thongtindoanhnghiep");
     if(mysqli_num_rows($kt)>0){
         $row = mysqli_fetch_array($kt);
     }
-    $id_nv = $_SESSION['id_nv'];
+    /*$id_nv = $_SESSION['id_nv'];
     $sql_role = "SELECT * from chitietquyentruycap where id_nv = '$id_nv'";
-    $query_role =mysqli_query($conn,$sql_role);
+    $query_role =mysqli_query($conn,$sql_role);*/
 
 }
 ?>
